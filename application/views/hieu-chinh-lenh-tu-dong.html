@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <?php $this->view("header.php"); ?>
+</head>
+<body>
+   <?php $this->view("nav.php"); ?>
+   
+   <div class="container py-3" style="margin-top:100px">
+      <h3 style="text-align: center">Robot Hiệu Chỉnh Lệnh Tự Động</h3>
+      <p>Robot dùng để chỉnh sửa các lệnh một cách hoàn toàn tự động.</p>
+      <b><p>1. Xóa StopLoss và TakeProfit của lệnh đang treo:</p></b>
+
+      <p>- Robot sẽ tự động xoá StopLoss (Dừng lỗ) hoặc TakeProft (Chốt lời) của các lệnh đang treo mà Nhà đầu tư đã đặt.</p>
+
+      <p>- Có thể lựa chọn xóa riêng StopLoss hoặc TakeProft.</p>
+
+      <p>- Có thể lựa chọn áp dụng cho riêng một cặp tiền tệ hoặc áp dụng cho tất cả các cặp tiền tệ mà Nhà đầu tư giao dịch.</p>
+
+      <b><p>2. Tự động điều chỉnh mức Dừng lỗ (Trailling Stoploss):</p></b>
+
+      <p>- Robot sẽ điều chỉnh để giảm mức dừng lỗ (StopLoss) được đặt trước đó theo hướng "bảo vệ" Nhà đầu tư khi lệnh đang treo đã đạt được một phần hoặc đã đạt đến mức lợi nhuận mục tiêu.</p>
+
+      <p>- Các cức Lợi nhuận mục tiêu và mức điều chỉnh StopLoss có thể tùy biến nhập vào theo nhu cầu.</p>
+
+      <b><p>3. Tự động đặt StopLoss và TakeProfit theo Pip:</p></b>
+
+      <p>- Robot sẽ tự động đặt StopLoss (Dừng lỗ) hoặc TakeProft (Chốt lời) ngay khi Nhà đầu tư đặt lệnh.</p>
+
+      <p>- Các tham số StopLoss và Take Profit có thể tùy biến nhập vào tùy theo nhu cầu sử dụng của từng Nhà đầu tư.</p>
+
+      <p>- Có thể lựa chọn áp dụng cho riêng một cặp tiền tệ hoặc áp dụng cho tất cả các cặp tiền tệ mà Nhà đầu tư giao dịch.</p>
+
+      <p>- Có thể lựa chọn để điều chỉnh cả lệnh đã có SL hoặc TP.</p>
+
+      <b><p>4. Chỉnh lệnh SL và TP ngay trên màn hình:</p></b>
+
+      <p>- Điều chỉnh giá của lệnh: BuyStop_SellStop; BuyLimit_SellLimit bằng cách KÉO THẢ đường giá rất trực quan và đơn giản ngay trên màn hình đồ thị MT4.</p>
+
+      <p>- Nhà đầu tư cũng có thể điều chỉnh các mức giá StopLoss hoặc TakeProfit của tất cả các loại lệnh trực tiếp trên màn hình MT4 bằng cách click 2 lần vào đường thẳng StopLoss hoặc TakeProfit trên màn hình và kéo đường thẳng đến mức giá điều chỉnh mong muốn. Robot sẽ tự động điều chỉnh đến mức giá mà Nhà đầu tư mong muốn;</p>
+
+      <p>- Trên mỗi đường minh họa các mức giá có ghi rõ số ticket number để Nhà đầu tư có thể phân biệt đường kẻ nào là của lệnh nào.</p>
+
+      <p>- Tự động đặt lệnh StopLoss và TakeProfit theo điều kiện của Nhà đầu tư.</p>
+
+      <p>- Cho phép lựa chọn màu của từng loại lệnh.</p>
+
+      <b><p>5. Tổng hợp nhiều chức năng F1:</p></b>
+
+      <p>- Phối hợp nhiều chức năng cơ bản trong một robot duy nhất.</p>
+
+      <p>- Tự động đặt lệnh StopLoss và TakeProfit theo điều kiện của Nhà đầu tư.</p>
+
+      <p>- Tự động nâng mức StopLoss khi có lãi theo điều kiện của Nhà đầu tư.</p>
+
+      <p>- Tự động đóng các lệnh theo điều kiện của Nhà đầu tư.</p>
+
+      <p>- Tự động đóng tất cả các lệnh theo giờ Server</p>
+   </div>
+
+   
+</body>
+<?php $this->view("footer.php"); ?>
+
+</html>

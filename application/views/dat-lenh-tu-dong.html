@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <?php $this->view("header.php"); ?>
+</head>
+<body>
+   <?php $this->view("nav.php"); ?>
+   
+   <div class="container py-3" style="margin-top:100px">
+      <h3 style="text-align: center">Robot Đặt Lệnh Tự Động</h3>
+      <p> Robot đặt lệnh tự động với nhiều tính năng khác nhau được được tích hợp trong một robot:</p>
+      <b><p>1. Tự động đặt lệnh theo Thời gian đặt trước:</p></b>
+
+      <p>- Tự động đặt lệnh tại thời gian đặt sẵn trong Robot.</p>
+
+      <p>- Có thể đặt cùng lúc nhiều lệnh của nhiều cặp tiền tệ - Có thể đặt cùng lúc đặt được các lệnh Mua hoặc Bán.</p>
+
+      <p>- Có thể tùy biến thay đổi khối lượng (Lots) giao dịch cho mỗi lệnh.</p>
+
+      <b><p>2. Robot tự động Breakout_BB:</p></b>
+
+      <p>- Robot giao dich hoàn toàn tự động theo chiến lược Breakout (phá cản) của BoilingerBand tiêu chuẩn kết hợp với indicator Stochastic tiêu chuẩn.</p>
+
+      <b><p>3. Robot tự động TrendFollower:</p></b>
+
+      <p>- TrendStrickExtreme là indicator giao dịch theo xu hướng, tín hiệu giao dịch không bị repaint (vẽ lại).</p>
+
+      <p>- Tự động vào lệnh khi TrendStrickExtreme báo hiệu xu hướng mới chuyển từ SELL sang BUY và NGƯỢC lại.</p>
+
+      <p>- Tự động thoát lệnh khi TrendStrickExtreme kết thúc xu hướng cũ và chuyển sang xu hướng mới.</p>
+
+      <p>- Mức SL/TP linh hoạt có thể điều chỉnh cho từng cặp tiền tệ, từng khung thời gian khác nhau.</p>
+
+      <b><p>4. Đặt lệnh theo mô hình Martingale (Gấp thếp):</p></b>
+
+      <p>- Tự động đặt thêm lệnh và tăng khối lượng (Có thể chỉnh linh hoạt).</p>
+
+      <p>- Tự động đóng lệnh theo mức lãi lỗ kỳ vọng của từng nhóm lệnh mua bán, của từng cặp tiền tệ (Xem giải thích phần tham số).</p>
+
+      <p>- Robot này chỉ hỗ trợ đặt THÊM lệnh, không phải là robot tự động hoàn toàn.</p>
+   </div>
+
+   
+</body>
+<?php $this->view("footer.php"); ?>
+
+</html>

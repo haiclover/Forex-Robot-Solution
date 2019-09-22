@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "daring-agent-220109",
+  "private_key_id": "802fc8bd111a8d1d90cf703dd15f50c0c7e69857",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCKwoPnraqUC5QV\nQoiwxUfph1wL1xjXk0uoifWSSBXW5lYyMUYetfllENMx3M7gQzKeTq1x9CTPZwdM\nyO3NMaJqHmjUiW65WYPgnOf+8zrZDBdjtoJniFauBALbHlal9wCnoI7oJmNh6s7l\nTsCxaKtJ6tSWezGJD/xOME+Urq1c0v4RPCsHzl4gx0FU0hBIesv731X78KZ6JyCe\npsleyqA/wtFrRx1M17/oktCGAfxFLKvHrqZB7dgWKHWBaNqh6WgDxezYhMivGwII\nmeIDsOYg+bC7CG7HhH4Nrl/5nJoaEfiCLckzWuWAs85vuhRFb9sCORQWqOHLeN5S\nBENmlosDAgMBAAECggEAHQu7nccKImRMEqkzQMGDHJyzhVz4u8N+/mAmkgDZ5Xqg\nx2/uDCaudlvvwYvFmEcotN+mSei/vdSEwCt9L8s4grsr2XWNQmo9A0sE+ybCBkYU\nLVC6el6dOl7nlCOFIseSEQS4dVr3ybrjpTd3eYt984KfDoLqKxU4DMvrFKX97ySC\nlqC9u3de41WiPzIzppCdRAgCJDaHwxmh+picAakET0JMFxeWIyvUEz6V/lFketlz\nTyZEZyDoaQPOfxQ42I7M42F7kb7Q2XKOGZ6TuqKC21ZpGATL2ZpWX0Hl3CbeQYIa\npauCWm540frTcRaRP6SA9CYUPSBGEXmrdNXJzFuGtQKBgQC+SdFprPFKTCO9WzIv\nKvXNK0icJ28WIx+dQhFYNeXHNF0flANc00AuwQRKnqAR5eFiZAMRMqXrKguz0PGN\nT9SDGl8wixIewQ/ag/GXKSDkZI3IdAWEheo8OVcqzsod3BwnbwHyVNbv6BJPDRC4\nT6biu+e8IU11vAlnewYU1Mv2/wKBgQC6rWNgpApeyaprJl/Y4+O9diS5GSNHqZse\noCwIqa6StNFe/2tweuYiX15a0UpB2aVSnYSIhYBiJtf0Gp1aYywcATcOzFqNVh4M\nNGS289y9nfsE8SBiFHoYcnMfS7U1QhY/Gp0x2gfgzKxoCGhk7DnWs2iwxXRLI0R9\nRxpsOPWP/QKBgDZc2nHpUYnbVL6NJjopeM2jlvvdnDPj1u1TaaccxsdxY0VZQNit\nFYIF7Jbw2GQkm45DakjoglQ7z9oQUGIBs4G88ALrSEL2/vN7jHKV8mqte4AP/V+N\n7oxECW4WY9HCB10QrqqvqDQjxc9FuUgeoVvXOO4bSYjgLoOctvEOljK7AoGBAI8Z\nZvqoBQMQWED3E7YxS1zq+c+iQ3clvrFFWzvwxs/TKERIS9XXgB6NOMkpcmD0NFUW\nRohYvkd/Oz/2PvUQ3LlC/S+s2yVJBJOafjH40hfQyKHLLWXCCK5A3Zr58Bi5ZlBN\nWH7kgfGDNA4zk8L5ioTY1sHbOwB2MoROQyT+rM8JAoGBAKxg7yQN2oBHwwvlvO3k\nLPehxb33R+buBsr2l4yumvVXubUcLvZxrWmrn0meF7M5f5UXBwtLb7+2ltHqdWgY\ntLXHK0qLOM3Zi+3jHyaW90euhq5MK2aFZjjI826gPIp4i+VFzkccxRNx0uGgg0x0\niAiLKSMj1VRmiuSSi+cWpxfI\n-----END PRIVATE KEY-----\n",
+  "client_email": "forexrobotsol@daring-agent-220109.iam.gserviceaccount.com",
+  "client_id": "114446717405171881385",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/forexrobotsol%40daring-agent-220109.iam.gserviceaccount.com"
+}

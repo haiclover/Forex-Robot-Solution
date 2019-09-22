@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <?php $this->view("header.php"); ?>
+</head>
+<body>
+   <?php $this->view("nav.php"); ?>
+   
+   <div class="container py-3" style="margin-top:100px">
+      <h3 style="text-align: center">Robot Thống Kê - Phân Tích</h3>
+      <p> Robot này có chức năng thu thập thông tin để thống kê và phân tích giúp trader đưa ra quyết định đầu tư.</p>
+      <b><p>1. DashBoard Trend: Tín hiệu đa cặp tiền đa khung thời gian:</p></b>
+
+      <p>- Có thể Quan sát được xu hướng của nhiều cặp tiền tệ và đa khung thời gian theo chỉ báo.</p>
+
+      <p>- Quản lý được thông tin các lệnh đang treo. Ví dụ như tổng lệnh đang treo, tổng hợp lãi lỗ thông tin về spread…</p>
+
+      <p>- Thực hiện là việc đặt hoặc đóng lệnh trực tiếp trên màn hình theo nhiều tiêu chí khác nhau.</p>
+
+      <b><p>2. Thông báo thông tin qua mobile:</p></b>
+
+      <p>Gửi thông báo đến điện thoại di động miễn phí thông qua ứng dụng MetaTrader4. Thông báo sẽ được gửi trong các trường hợp sau:</p>
+
+      <p>- Giá tăng lên cao hơn hoặc giảm xuống mức nhất định</p>
+
+      <p>- Thông báo giá mở cửa cây nến H1 định kỳ</p>
+
+      <p>- Thông báo tình trạng Equity khi vượt qua các mốc</p>
+
+      <p>- Thông báo khi có lệnh đặt mới hoặc có lệnh đóng ....</p>
+
+      <p>- Có thể điều khiển, bật tắt từng chức năng của robot.</p>
+
+      <b><p>3. Cập nhật Tin tức tài chính trực tiếp trên màn hình:</p></b>
+
+      <p>- Cập nhật TIN TỨC tài chính liên tục và hoàn toàn tự động.</p>
+
+      <p>- Có thể lựa chọn xem tin tức cho riêng từng cặp tiền tệ hoặc xem tất cả tin tức mà Nhà đầu tư quan tâm.</p>
+
+      <p>- Có thể chỉnh sửa vị trí, độ nghiêng và khoảng cách của các bản tin.</p>
+
+      <p>- Tự động điều chỉnh giờ ra tin tức theo đúng khung giờ của nhà môi giới.</p>
+
+      <b><p>4. Đánh dấu lịch sử giao dịch lên đồ thị:</p></b>
+
+      <p>- Vẽ toàn bộ các lệnh đã giao dịch trong quá khứ lên màn hình đồ thị của từng cặp tiền tệ.</p>
+
+      <p>- Giúp Nhà đầu tư dễ dàng so sánh, đánh giá và rút kinh nghiệm từ các lệnh đã giao dịch trong quá khứ.</p>
+
+      <p>- Có thể lựa chọn các lệnh theo từng cặp tiền tệ và đánh dấu các lệnh đã giao dịch trên màn hình đồ thị giá;</p>
+
+      <b><p>5. Xóa hết ghi chú trên màn hình:</p></b>
+
+      <p>- Tự động xóa tất cả những thông báo thiết trền màn hình giao dịch.</p>
+
+      <b><p>6. Xem giá Bid-Ask (Bán-Mua) của cặp tiền tệ:</p></b>
+
+      <p>- Hiển thị giá Mua và Bán trên màn hình giao dịch.</p>
+
+      <b><p>7. Xem Spread trên màn hình:</p></b>
+
+      <p>- Tự động hiện thị Spread (Mức trên lệnh giá Mua Bán) trên biểu đồ MT.</p>
+
+      <b><p>8. Xem tổng hợp lãi/lỗ các lệnh đang treo:</p></b>
+
+      <p>- Hiện thị tổng lãi/lỗ các cặp đang treo (Chưa đóng) trên biểu đồ MT4.</p>
+
+      <p>- Tổng hợp theo nhóm Buy/Sell và theo từng cặp tiền tệ đang giao dịch.</p>
+
+      <b><p>9. Xem tổng hợp Lãi/Lỗ của lịch sử giao dịch:</p></b>
+
+      <p>- Tổng hợp lãi lỗ của các lệnh đã đóng (closed) theo nhóm Buy/Sell và tổng hợp lãi lỗ theo từng cặp tiền tệ đã giao dịch.</p>
+
+      <p>- Có thể tùy chọn thời gian muốn xem.</p>
+
+      <b><p>10. Xem thông tin RSI của nhiều cặp tiền trên một màn hình:</p></b>
+
+      <p>- Xem thông tin RSI của nhiều cặp tiền trên một màn hình.</p>
+
+      <b><p>11. Nhắn tin Skype mỗi lần tài khoản đóng hoặc mở lệnh:</p></b>
+
+      <p>- Gửi thông tin về giao dịch qua nick Skype hoàn toàn Tự động và Miễn phí.</p>
+
+      <p>- Các tín hiệu gửi tin bao gồm các nghiệp vụ: Đặt lệnh, Đóng lệnh, Hiệu chỉnh SL và TP, Cắt lệnh từng phần...</p>
+
+      <p>- Không giới hạn số nick gửi tín hiệu cùng lúc.</p>
+
+      <p>- Có thể mở rộng thêm các loại thông tin gửi đi như: thông báo tình trạng tài khoản (Lãi, lỗ), số lệnh treo, cảnh báo khi lỗ đến mức nhất định, cảnh báo khi đánh quá số lot quy định,... Do người sử dụng yêu cầu.</p>
+   </div>
+
+   
+</body>
+<?php $this->view("footer.php"); ?>
+
+</html>
